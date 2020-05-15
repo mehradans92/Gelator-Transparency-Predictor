@@ -1,0 +1,43 @@
+{
+    "name": "gtp",
+    "version": "1.0.0",
+    "description": "TensorFlow KRR",
+    "main": "main.js",
+    "scripts": {
+        "build-js": "browserify main.js > bundle.js",
+        "watch-js": "watchify main.js -o bundle.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "KRR_tfjs"
+    },
+    "author": "Mehrad Ansari",
+    "license": "ISC",
+    "dependencies": {
+        "@tensorflow/tfjs": "^1.7.0",
+        "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+        "body-parser": "^1.19.0",
+        "bootstrap": "file:bootstrap",
+        "datatables": "^1.10.18",
+        "datatables.net": "^1.10.20",
+        "datatables.net-dt": "^1.10.20",
+        "fs": "0.0.1-security",
+        "git-clone-repo": "^1.0.0",
+        "jquery": "^3.4.1",
+        "load-json-file": "^6.2.0",
+        "mathjax": "^3.0.5",
+        "mathjs": "^6.6.2",
+        "moment": "^2.24.0",
+        "mongoose": "^5.9.7",
+        "popper.js": "^1.12.9",
+        "read-json-file": "^1.0.1",
+        "read-package-json": "^2.1.1",
+        "tabulator-tables": "^4.6.0"
+    },
+    "devDependencies": {
+        "browserify": "latest",
+        "esmify": "^2.1.1",
+        "gh-pages": "^2.2.0",
+        "watchify": "^3.11.1"
+    }
+}
