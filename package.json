@@ -1,11 +1,13 @@
 {
+    "homepage": "https://github.com/mehradans92/Gelator-Transparency-Predictor",
     "name": "gtp",
     "version": "1.0.0",
     "description": "TensorFlow KRR",
     "main": "main.js",
     "scripts": {
         "build-js": "browserify main.js > bundle.js",
-        "watch-js": "watchify main.js -o bundle.js"
+        "watch-js": "watchify main.js -o bundle.js",
+        "deploy": "gh-pages -d npm"
     },
     "repository": {
         "type": "git",
